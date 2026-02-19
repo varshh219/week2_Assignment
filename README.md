@@ -1,45 +1,37 @@
-# 🎓 Student Grade Calculator
-## Week 2 – Data Science Internship Assignment
+# Week 2 – Making Decisions & Loops in Python  
+## Data Science Internship Assignment  
+
+## 📌 Project Overview  
+
+This assignment was completed as part of my Data Science Internship program.  
+The primary objective of Week 2 was to understand decision-making and repetition in Python by developing a Student Grade Calculator application.
+
+The program collects a student’s name and marks, validates the input, calculates the grade using conditional statements, and displays an encouraging message based on performance.
+
+This task strengthened my understanding of control flow, looping, modular programming, and basic error handling concepts essential for data science development.
 
 ---
 
-## 📌 Project Overview
+## Objectives  
 
-This project was completed as part of my Data Science Internship program (Week 2).
-
-The objective of this assignment was to understand decision-making and repetition in Python by building a console-based Student Grade Calculator.
-
-The program:
-- Accepts student name and marks
-- Validates marks input (0–100 only)
-- Calculates grade using conditional statements
-- Displays an encouraging message
-- Handles invalid and non-numeric inputs gracefully
-
-This project strengthens foundational programming concepts required for data science and software development.
+- Understand and implement if-elif-else statements  
+- Learn comparison operators (> , < , >= , <= , ==)  
+- Use while loops for repeated validation  
+- Create reusable functions  
+- Handle errors using try-except  
+- Develop a structured console-based Python application  
 
 ---
 
-## Objectives
+## 🛠 Technologies Used  
 
-- Implement if-elif-else statements
-- Use comparison operators
-- Apply while loops for validation
-- Create reusable functions
-- Handle errors using try-except
-- Build a structured Python program
+- Python 3.x  
+- Visual Studio Code  
+- Git & GitHub  
 
 ---
 
-## 🛠 Technologies Used
-
-- Python 3.x
-- Visual Studio Code
-- Git & GitHub
-
----
-
-## Project Structure
+## Project Structure  
 
 week2/
 │
@@ -48,118 +40,99 @@ week2/
 ├── test_cases.txt
 └── screenshot.png
 
-File Description:
+where  
 
-- grade_calculator.py → Main program file
-- README.md → Project documentation
-- test_cases.txt → Contains test scenarios
-- screenshot.png → Screenshot of program execution
+- grade_calculator.py → Main Python script  
+- README.md → Project documentation  
+- test_cases.txt → Test case scenarios  
+- screenshot.png → Screenshot showing program execution  
 
 ---
 
-## Setup Instructions
+## Execution  
 
-### Step 1: Install Python
+### Step 1: Install Python  
 
-Download Python from:
+Download Python from:  
 https://www.python.org/downloads/
 
 Verify installation:
 
 python --version
 
----
-
-### Step 2: Navigate to Project Folder
+### Step 2: Navigate to Project Folder  
 
 cd week2
 
----
-
-### Step 3: Run the Program
+### Step 3: Run the Program  
 
 python grade_calculator.py
 
 ---
 
-## Technical Details
+## Technical Details  
 
-### Concepts Implemented
+### Concepts Implemented  
 
-- Conditional Statements (if-elif-else)
-- Comparison Operators
-- While Loop
-- Functions
-- Input Validation
-- Error Handling (try-except)
-- Console Output Formatting
-
----
-
-## Grading Logic
-
-A : 90 – 100  
-B : 80 – 89  
-C : 70 – 79  
-D : 60 – 69  
-F : 0 – 59  
-
-Each grade includes a motivational message.
+- Conditional Statements (if-elif-else)  
+- Comparison Operators  
+- While Loop  
+- Functions  
+- Input Validation  
+- Error Handling (try-except)  
+- Console Output Formatting  
 
 ---
 
-## Algorithm
+### Algorithm  
 
-1. Display program title
-2. Ask user to enter student name
-3. Use a while loop to collect valid marks
-4. Check if input is numeric using try-except
-5. Validate marks range (0–100)
-6. Apply grading logic using if-elif-else
-7. Display grade and encouraging message
-8. End program
+1. Prompt the user to enter student name  
+2. Use a while loop to collect marks  
+3. Validate marks (must be numeric and between 0–100)  
+4. Apply grading logic using if-elif-else  
+5. Assign grade based on marks range  
+6. Display grade along with an encouraging message  
 
 ---
 
-## Testing Evidence
+### Program Flow  
 
-The program was tested with:
-
-Valid Inputs:
-- 95 → Grade A
-- 85 → Grade B
-- 72 → Grade C
-- 65 → Grade D
-- 40 → Grade F
-
-Invalid Inputs:
-- 120 → Range validation error
-- -5 → Range validation error
-- abc → Numeric input error
-
-All scenarios were successfully handled.
+Input → Validation → Processing → Output  
 
 ---
 
-## Program Flow
+## Testing Evidence  
 
-Input → Validation → Processing → Output
+The application was tested using multiple inputs to ensure:
 
-- Input Layer: Collects name and marks
-- Validation Layer: Ensures valid numeric range
-- Logic Layer: Determines grade
-- Output Layer: Displays formatted result
+- Correct grade calculation  
+- Proper range validation (0–100)  
+- Handling of negative values  
+- Handling of non-numeric inputs  
+- No runtime errors  
+
+Example Test Case:
+
+Input:  
+Name: Priya  
+Marks: 85  
+
+Output:  
+Grade: B  
+Message: Very Good! Keep it up!  
 
 ---
 
-## Learning Outcomes
+## Learning Outcomes  
 
-Through this project, I gained:
+By completing this assignment, I gained:
 
-- Strong understanding of decision-making in Python
-- Experience with loops and validation
-- Confidence in handling runtime errors
-- Improved logical thinking
-- Better code organization practices
+- Practical experience with decision-making in Python  
+- Understanding of loops and validation techniques  
+- Knowledge of writing reusable functions  
+- Confidence in handling runtime errors  
+- Improved logical thinking and code organization  
 
 ---
+
+This assignment marks the continuation of my 12-week Data Science Internship learning journey.
